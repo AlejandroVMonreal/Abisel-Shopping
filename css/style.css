@@ -1,0 +1,47 @@
+:root{
+    --colorBlanco: #ffffff;
+    --colorNegro: #000000;
+    --colorPrimario: #FAE5D3;
+    --colorSecundario: #FCF3CF;
+
+    --fuentePrincipal: "Afacad Flux", sans-serif;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+/** Globales **/
+body{
+    background-color: var(--colorPrimario);
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+p{
+    font-size: 1.8rem;
+    font-family: var(--fuentePrincipal);
+    color: var(--colorNegro);
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    width: 25%;
+    height: auto;
+    border: 0.5rem solid var(--colorPrimario);
+    border-radius: 50%;
+}
+
+/** Header **/
+.header{
+    display: flex;
+    justify-content: center;
+}
+.header__logo{
+    margin: 3rem 0;
+}
